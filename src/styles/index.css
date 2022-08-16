@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  #root{
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 767px){
+    #root{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
